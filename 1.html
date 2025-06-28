@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial;
+            padding: 10px;
+            background-color: white;
+        }
+        .header{
+            padding: 30px;
+            text-align:center;
+            background-color: white;
+        }
+        .header h1{
+            font-size: 50px;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: black;
+        }
+        .topnav a{
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+        }
+        .topnav a:hover{
+            background-color: cadetblue;
+            color:black;
+        }
+        .leftcol{
+            float:left;
+            width:75%;
+        }
+        .rightcol{
+            float: left;
+            width:25%;
+            background-color: aliceblue;
+            padding-left:20px;
+        }
+        .img{
+            background-color: grey;
+            width: 100%;
+            padding:20px;
+        }
+        .card{
+             background-color: white;
+             padding: 20px;
+             margin-top: 20px;
+        }
+        .row::after{
+            content:"";
+            display:table;
+            clear: both;
+        }
+        .footer{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Webpage</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic, tempora cupiditate placeat fuga animi? Ut blanditiis quisquam nam amet ipsum recusandae eaque inventore fuga voluptatem possimus, corrupti quibusdam excepturi?</p>
+    </div>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" style="float:right">Contact</a>
+    </div>
+    <div class="row">
+        <div class="leftcol">
+            <div class="card">
+                <h2>Welcome</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, totam! Accusamus, perspiciatis. Iusto quis, accusantium maxime reprehenderit officia placeat ab mollitia cupiditate excepturi dolorem quos inventore soluta similique earum amet.</h5>
+                <div class="img" style="height:200px;">
+                    Image
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste hic, tempora cupiditate placeat fuga animi? Ut blanditiis quisquam nam amet ipsum recusandae eaque inventore fuga voluptatem possimus, corrupti quibusdam excepturi?</p>
+    </div>
+    <div class="card">
+        <h2>hello world</h2>
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur earum in sint quas beatae incidunt nam natus illum quo maiores? Repellat laboriosam eveniet maxime molestiae voluptatum quasi consectetur deleniti cupiditate.</h5>
+        <div class="img" style="height:200px;">
+            Image
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit aut voluptate dicta laudantium voluptates. Ratione soluta cumque aliquam, tenetur nostrum expedita quis commodi deleniti iure assumenda, fuga numquam nesciunt.</p>
+            </div>
+        </div>
+        <div class="rightcol">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="img" style="height:100px;">
+                    Img
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, minima praesentium. Neque, perferendis! Neque illum repellendus rem est quaerat nihil, perspiciatis blanditiis corporis. Cum ea, modi distinctio explicabo commodi quisquam.</p>
+
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="img"><p>Image</p></div>
+                <div class="img"><p>Image</p></div>
+                <div class="img"><p>Image</p></div>
+            </div>
+            <div class="card">
+                <h3>follow me</h3>
+                <p>sddfhgfg</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>
